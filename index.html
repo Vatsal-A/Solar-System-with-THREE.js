@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Three.js Solar System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    #info {
+      position: absolute; top: 12px; left: 12px; color: #fff; font: 14px/1.4 system-ui, Arial, sans-serif;
+      background: rgba(0,0,0,0.45); padding: 8px 10px; border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">Drag to orbit • Scroll to zoom • Solar System (hierarchies + animation)</div>
+  <canvas class="webgl"></canvas>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
